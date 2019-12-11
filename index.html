@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Bicycle</title>
+
+  <!-- Normalize.css -->
+  <link rel="stylesheet" href="css/normalize.css">
+
+  <!-- Swiper.min.css -->
+  <link rel="stylesheet" href="css/swiper.min.css">
+
+<!--  Fancybox -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+
+  <!-- Common styles for global elements -->
+  <link rel="stylesheet" href="css/common.css">
+
+  <!-- Personal stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Responsive stylesheet -->
+  <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+
+<body>
+  <div class="wrapper">
+
+    <header class="header">
+      <div class="container">
+
+        <div class="burger-btn"></div>
+
+        <nav class="navigation">
+          <ul class="left-navigation">
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Work</a></li>
+          </ul>
+          <a href="#" class="logo">
+            <img src="images/logo.png" alt="logo">
+          </a>
+          <ul class="right-navigation">
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div class="main-slider">
+
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide" style="background-image: url('images/top.jpg')"></div>
+            <div class="swiper-slide" style="background-image: url('images/slide1.jpg')"></div>
+            <div class="swiper-slide" style="background-image: url('images/slide2.jpg')"></div>
+          </div>
+        </div>
+
+      </div>
+
+      <section class="section-big generation">
+        <div class="container section-center">
+          <div class="heading-img">
+            <img src="images/generation-icon.png" alt="generation">
+          </div>
+          <h3 class="title-18">A NEW GENERATION OF VINTAGE BIKE</h3>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry's standard
+            dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
+            type specimen
+            book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining
+            essentially
+            unchanged.
+          </p>
+        </div>
+      </section>
+      <section class="about">
+        <div class="container">
+          <div class="row">
+            <div class="column-big" style="background-image: url('./images/big-image1.jpg')">
+              <img src="./images/icon1.png" alt="" class="icon">
+            </div>
+            <div class="column-small">
+              <div class="about__text-block">
+                <img src="./images/ico1.png" alt="icon">
+                <h4>Vintage Oliva</h4>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived.</p>
+                <div class="hr"></div>
+              </div>
+              <div class="about__image-block" style="background-image: url('./images/small-image1.jpg')"></div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="column-small">
+              <div class="about__text-block">
+                <img src="./images/ico2.png" alt="icon">
+                <h4>La boriosa</h4>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived.</p>
+                <div class="hr"></div>
+              </div>
+              <div class="about__image-block" style="background-image: url('./images/small-image2.jpg')"></div>
+            </div>
+            <div class="column-big" style="background-image: url('./images/big-image2.jpg')">
+              <img src="./images/icon2.png" alt="" class="icon">
+            </div>
+          </div>
+          <div class="row">
+            <div class="column-big" style="background-image: url('./images/v-image1.jpg')">
+              <img src="./images/icon3.png" alt="" class="icon">
+            </div>
+            <div class="column-small">
+              <div class="about__text-block">
+                <img src="./images/ico3.png" alt="icon">
+                <h4>retrò Bike - M. Hulot</h4>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived.</p>
+                <div class="hr"></div>
+              </div>
+              <div class="about__image-block" style="background-image: url('./images/small-image1.jpg')"></div>
+            </div>
+            <div class="column-big" style="background-image: url('./images/v-image2.jpg')"></div>
+          </div>
+        </div>
+      </section>
+      <section class="gallery">
+        <div class="container">
+          <div class="gallery-wrap">
+            <div class="column-small">
+              <div class="gallery-item w-50 h-50">
+                <a data-fancybox="gallery" href="./images/hor1.jpg"><img src="./images/hor1.jpg"></a>
+                <a data-fancybox="gallery" href="./images/hor1.jpg"><img src="./images/hor1.jpg"></a>
+              </div>
+              <div class="gallery-item w-50 h-50">
+
+              </div>
+              <div class="gallery-item h-50">
+
+              </div>
+            </div>
+            <div class="column-small">
+              <div class="gallery-item w-50"></div>
+              <div class="gallery-item w-50"></div>
+            </div>
+            <div class="column-small">
+              <div class="gallery-item h-50"></div>
+              <div class="gallery-item h-50"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+  </div>
+
+
+  <!-- JQuery 3.4.1 -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <!-- Swiper.min.js -->
+  <script src="js/swiper.min.js"></script>
+<!-- Fancybox -->
+  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+  <!-- Main.js -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>
