@@ -1,3 +1,55 @@
+@media (max-width: 902px) {
+
+  .about-text p {
+    font-size: 14px;
+    width: 100%;
+  }
+
+  .about__text-block {
+    padding: 50px 30px 40px;
+  }
+  }
+
+  @media (max-width: 868px) {
+    
+
+    .swiper-desc {
+      width: 700px;
+    }
+
+
+  }
+
+@media (max-width: 684px) {
+  .row {
+    display: block;
+  }
+  .column-small {
+    width: 100%;
+  }
+
+  .column-big {
+    padding: 110px;
+  }
+  .gallery-wrap {
+    height: 300px;
+  }
+
+.swiper-text {
+  font-weight: 700;
+}
+
+}
+@media (max-width: 672px) {
+  .swiper-desc {
+    width: 400px;
+  }
+}
+
+
+  .navigation li {
+    padding: 5px 15px;
+  }
 @media (max-width: 680px) {
   .navigation li {
     padding: 5px 15px;
@@ -8,6 +60,8 @@
     margin: 0 35px;
   }
 }
+
+
 
 @media (max-width: 480px) {
   /* BURGER-MENU-STYLES */
@@ -81,4 +135,46 @@
   .section-big {
     padding: 85px 0 105px;
   }
+
+  .title-18 {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  .section-big p {
+    width: 400px;
+  }
+}
+@media (max-width: 410px) {
+  .section-big {
+   text-align: justify;
+  }
+  .section-big p {
+    max-width: 320px;
+  }
+  .section-big h3 {
+    text-align: center;
+  }
+  
+  .p {
+    font-size: 14px;
+    text-align: justify;
+  }
+
+}
+
+@media (max-width: 342px) {
+  .section-big p {
+    max-width: 280px;
+  }
+
+  .swiper-desc {
+    max-width: 300px;
+  }
+
+  .gallery-wrap {
+    height: 250px;
+  }
+  
+
 }

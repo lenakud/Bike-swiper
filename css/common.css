@@ -8,7 +8,7 @@ html {
 *, 
 *:before, 
 *:after {
-  box-sizing: inherit;
+ 
   margin: 0;
   padding: 0;
 }
@@ -43,8 +43,8 @@ img {
 
 .container {
   width: 100%;
-  max-width: 1630px;
-  padding: 0 15px;
+  max-width: 1680px;
+  
   margin: 0 auto;
 }
 
